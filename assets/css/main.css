@@ -59,11 +59,15 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-a:hover,
-a:focus {
+a:hover {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
+}
+a:focus{
+	color: #7b1fa2;
+	text-decoration: none;
+	outline: none;
 }
 
 a:before,
@@ -231,30 +235,22 @@ a:after {
   }
   
   /* Add a hover effect if you want */
-  .fa:hover {
+.fa:hover {
 	opacity: 1;
   }
 
-  /* LinkedIn */
-.fa-linkedin {
-	background: #7b1fa2;
-	color: #2f2f2f;
-	padding: 2px;
-	border-radius: 4px;
-  }
 .fa-phone-square
   {
 	font-size: 25px;
 	text-align: center;
-	
   }
 
 .glyphicon-envelope{
 	font-size: 25px;
 	text-align: center;
 	text-decoration: none;
-	
 }
+
 .glyphicon-envelope:hover{
 	opacity: 1;
 	text-decoration: none;
